@@ -397,6 +397,16 @@
       }
 
       /* ============================================================
+       promo nav backround
+    ============================================================ */
+
+      .promo-nav {
+        background: #482b13;
+        border-radius: 25px;
+        padding: 0px 10px 0px 10px;
+      }
+
+      /* ============================================================
        RESET & BASE
     ============================================================ */
       *,
@@ -1896,7 +1906,7 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#menu">Menu</a></li>
-        <li><a href="#offers">Offers</a></li>
+        <li><a href="#offers" class="promo-nav">Promo</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -1928,7 +1938,7 @@
       <a href="#home" class="mobile-link">Home</a>
       <a href="#about" class="mobile-link">About</a>
       <a href="#menu" class="mobile-link">Menu</a>
-      <a href="#offers" class="mobile-link">Offers</a>
+      <a href="#offers" class="mobile-link promo-nav">Promo</a>
       <a href="#gallery" class="mobile-link">Gallery</a>
       <a href="#contact" class="mobile-link">Contact</a>
       <div class="mobile-nav-cta">
@@ -2070,7 +2080,7 @@
           role="tab"
           aria-selected="false"
         >
-          Hot Drinks
+          Non-Coffee
         </button>
         <button
           class="filter-tab"
@@ -2091,10 +2101,10 @@
       </div>
 
       <div class="menu-grid" id="menuGrid">
-        <!-- Hot 1 -->
+        <!-- Drinks -->
         <article
           class="menu-card"
-          data-cat="hot"
+          data-cat="cold"
           data-aos="fade-up"
           data-aos-delay="0"
           itemscope
@@ -2102,8 +2112,8 @@
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/34528555/pexels-photo-34528555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Signature Barako Latte – Best Seller at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/fd-ph/Products/88236197.jpg"
+              alt="Dark Choco Mocha – Best Seller at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
@@ -2111,12 +2121,10 @@
             <div class="menu-badge">Best Seller</div>
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">
-              Signature Barako Latte
-            </div>
+            <div class="menu-card-name" itemprop="name">Dark Choco Mocha</div>
             <div class="menu-card-desc" itemprop="description">
-              Rich, bold Philippine barako espresso blended with velvety steamed
-              milk and a caramel drizzle.
+              Deep dark chocolate and moka shot in one cup. Rich, bold, and a
+              little extra.
             </div>
             <div class="menu-card-footer">
               <div
@@ -2125,7 +2133,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="120">₱120</span>
+                <span itemprop="price" content="120">₱99</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2146,10 +2154,9 @@
           </div>
         </article>
 
-        <!-- Hot 2 -->
         <article
           class="menu-card"
-          data-cat="hot"
+          data-cat="cold"
           data-aos="fade-up"
           data-aos-delay="80"
           itemscope
@@ -2157,18 +2164,18 @@
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/9271565/pexels-photo-9271565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Kapeng Mainit – Classic Filipino hot coffee at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/fd-ph/Products/90959864.jpg"
+              alt="SeaSalt De Espana – Classic Filipino hot coffee at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
             />
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">Kapeng Mainit</div>
+            <div class="menu-card-name" itemprop="name">SeaSalt De España</div>
             <div class="menu-card-desc" itemprop="description">
-              Classic Filipino hot coffee, smooth and aromatic — just like the
-              ones your lola makes on a rainy morning.
+              "Sweet, salty, and silky all at once. A premium favorite made only
+              at Minum Kape"
             </div>
             <div class="menu-card-footer">
               <div
@@ -2177,7 +2184,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="80">₱80</span>
+                <span itemprop="price" content="80">₱99</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2198,10 +2205,212 @@
           </div>
         </article>
 
-        <!-- Hot 3 -->
         <article
           class="menu-card"
-          data-cat="hot"
+          data-cat="cold"
+          data-aos="fade-up"
+          data-aos-delay="80"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/88236195-parent/9b70fd97-b368-4016-88b0-03428b85e07f.jpg"
+              alt="Spanish Latte – Classic Filipino hot coffee at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Spanish Latte</div>
+            <div class="menu-card-desc" itemprop="description">
+              For reference: Creamy coffee beverage with sweetened condensed
+              milk.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="80">₱99</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="menu-card"
+          data-cat="cold"
+          data-aos="fade-up"
+          data-aos-delay="80"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/88236196-parent/e5fbd900-3fc4-447a-9a79-b8de01a1864f.jpg"
+              alt="Vanilla Latte – Classic Filipino hot coffee at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Vanilla Latte</div>
+            <div class="menu-card-desc" itemprop="description">
+              Soft, smooth, and lightly sweet. Moka shot with a touch of vanilla
+              charm.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="80">₱99</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="menu-card"
+          data-cat="cold"
+          data-aos="fade-up"
+          data-aos-delay="80"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/88236198-parent/99db6b2b-e715-425d-8777-df5409617881.jpg"
+              alt="White Choco Mocha – Classic Filipino hot coffee at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">White Choco Mocha</div>
+            <div class="menu-card-desc" itemprop="description">
+              Smooth moka shot and white chocolate swirled together—sweet,
+              creamy, and dreamy.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="80">₱99</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="menu-card"
+          data-cat="cold"
+          data-aos="fade-up"
+          data-aos-delay="80"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/fd-ph/Products/88236199.jpg"
+              alt="Happy Latte – Classic Filipino hot coffee at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Happy Latte</div>
+            <div class="menu-card-desc" itemprop="description">
+              Smooth, creamy, and lightly sweet with a cozy vanilla touch. A
+              premium drink you can only get at Minum Kape.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="80">₱109</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="menu-card"
+          data-cat="cold"
           data-aos="fade-up"
           data-aos-delay="160"
           itemscope
@@ -2209,18 +2418,18 @@
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/33371816/pexels-photo-33371816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Café Americano – Hot espresso drink at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/fd-ph/Products/90959863.jpg"
+              alt="Berry Mocha Oats – Hot espresso drink at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
             />
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">Café Americano</div>
+            <div class="menu-card-name" itemprop="name">Berry Mocha Oats</div>
             <div class="menu-card-desc" itemprop="description">
-              Bold double-shot espresso diluted to perfection — clean, strong,
-              and deeply satisfying for purists.
+              A rich blend of chocolate and berries with a smooth, creamy
+              finish. Premium, bold, and uniquely from Minum Kape.
             </div>
             <div class="menu-card-footer">
               <div
@@ -2229,7 +2438,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="95">₱95</span>
+                <span itemprop="price" content="95">₱129</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2250,7 +2459,6 @@
           </div>
         </article>
 
-        <!-- Cold 1 -->
         <article
           class="menu-card"
           data-cat="cold"
@@ -2261,8 +2469,8 @@
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/9329429/pexels-photo-9329429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Iced Salted Caramel – Fan Fave cold coffee at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/88236190-parent/43c7b950-4a0a-4c1c-98d2-9802504c11fb.jpg"
+              alt="Americano – Fan Fave cold coffee at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
@@ -2270,12 +2478,10 @@
             <div class="menu-badge">Fan Fave</div>
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">
-              Iced Salted Caramel
-            </div>
+            <div class="menu-card-name" itemprop="name">Americano</div>
             <div class="menu-card-desc" itemprop="description">
-              Chilled espresso shots poured over ice, layered with creamy milk
-              and our house salted caramel syrup.
+              Bold, smooth, and straight to the point. Just moka shot and
+              water—simple but strong.
             </div>
             <div class="menu-card-footer">
               <div
@@ -2284,7 +2490,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="140">₱140</span>
+                <span itemprop="price" content="140">₱59</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2305,7 +2511,6 @@
           </div>
         </article>
 
-        <!-- Cold 2 -->
         <article
           class="menu-card"
           data-cat="cold"
@@ -2316,18 +2521,18 @@
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/28944483/pexels-photo-28944483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Midnight Cold Brew – Slow-steeped cold coffee at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/88236191-parent/6d136083-a2b9-43cf-b81d-654f4b956bbf.jpg"
+              alt="Caramel Macchiato – Slow-steeped cold coffee at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
             />
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">Midnight Cold Brew</div>
+            <div class="menu-card-name" itemprop="name">Caramel Macchiato</div>
             <div class="menu-card-desc" itemprop="description">
-              Slow-steeped 18-hour cold brew with deep chocolate notes — smooth,
-              strong, and incredibly refreshing.
+              For reference: Espresso layered with steamed milk and topped with
+              caramel drizzle for a sweet finish.
             </div>
             <div class="menu-card-footer">
               <div
@@ -2336,7 +2541,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="130">₱130</span>
+                <span itemprop="price" content="130">₱99</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2357,7 +2562,6 @@
           </div>
         </article>
 
-        <!-- Cold 3 -->
         <article
           class="menu-card"
           data-cat="cold"
@@ -2368,18 +2572,18 @@
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/33094574/pexels-photo-33094574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Espresso Medley – Iced espresso variety at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/88236192-parent/05e10512-8f14-48e4-8a37-f7a680f91e5b.jpg"
+              alt="Caramel Latte – Iced espresso variety at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
             />
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">Espresso Medley</div>
+            <div class="menu-card-name" itemprop="name">Caramel Latte</div>
             <div class="menu-card-desc" itemprop="description">
-              A refreshing trio of espresso varieties served iced, celebrating
-              the full spectrum of our coffee selection.
+              Sweet, buttery caramel blended with smooth moka shot and milk.
+              Comfort in a cup.
             </div>
             <div class="menu-card-footer">
               <div
@@ -2388,7 +2592,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="155">₱155</span>
+                <span itemprop="price" content="155">₱99</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2409,7 +2613,315 @@
           </div>
         </article>
 
-        <!-- Snack 1 -->
+        <article
+          class="menu-card"
+          data-cat="cold"
+          data-aos="fade-up"
+          data-aos-delay="160"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/88236193-parent/d75d33c8-1f59-4bb8-a7b0-0e6936e2d45e.jpg"
+              alt="Cappuccino – Iced espresso variety at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Cappuccino</div>
+            <div class="menu-card-desc" itemprop="description">
+              For reference: A fluffy, sweet pastry topped with rich
+              coffee-flavored icing and creamy filling.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="155">₱89</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Non-Coffee -->
+
+        <article
+          class="menu-card"
+          data-cat="hot"
+          data-aos="fade-up"
+          data-aos-delay="160"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/fd-ph/Products/90958465.jpg"
+              alt="Milky Berry – Iced espresso variety at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Milky Berry</div>
+            <div class="menu-card-desc" itemprop="description">
+              Sweet, creamy, and berry fun. A smooth mix of milk and
+              strawberries topped with whipped cream.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="155">₱89</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="menu-card"
+          data-cat="hot"
+          data-aos="fade-up"
+          data-aos-delay="160"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/fd-ph/Products/117428841.jpg"
+              alt="Matcha Latte – Matcha Latte variety at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Matcha Latte</div>
+            <div class="menu-card-desc" itemprop="description">
+              Smooth and earthy with a creamy finish. Made with premium
+              ceremonial matcha, crafted your way.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="155">₱129</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="menu-card"
+          data-cat="hot"
+          data-aos="fade-up"
+          data-aos-delay="160"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/fd-ph/Products/117428864.jpg"
+              alt="Matcha Cloud – Matcha Latte variety at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Matcha Cloud</div>
+            <div class="menu-card-desc" itemprop="description">
+              Light, silky, and dreamy. Creamy matcha topped with a soft cloud
+              of foam.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="155">₱139</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="menu-card"
+          data-cat="hot"
+          data-aos="fade-up"
+          data-aos-delay="160"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/fd-ph/Products/117428881.jpg"
+              alt="Matcha Berry – Matcha Latte variety at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">Matcha Berry</div>
+            <div class="menu-card-desc" itemprop="description">
+              Earthy matcha with a sweet berry twist. Fresh, creamy, and a
+              little fruity.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="155">₱139</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article
+          class="menu-card"
+          data-cat="hot"
+          data-aos="fade-up"
+          data-aos-delay="160"
+          itemscope
+          itemtype="https://schema.org/MenuItem"
+        >
+          <div class="menu-card-img">
+            <img
+              src="https://images.deliveryhero.io/image/fd-ph/Products/117428883.jpg"
+              alt="SeaSalt Matcha – Matcha Latte variety at Minum Kape Tarlac"
+              loading="lazy"
+              width="940"
+              height="650"
+            />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name" itemprop="name">SeaSalt Matcha</div>
+            <div class="menu-card-desc" itemprop="description">
+              Sweet, earthy, and topped with silky sea salt foam and a hint of
+              vanilla. A smooth balance in every sip.
+            </div>
+            <div class="menu-card-footer">
+              <div
+                class="menu-price"
+                itemprop="offers"
+                itemscope
+                itemtype="https://schema.org/Offer"
+              >
+                <span itemprop="price" content="155">₱139</span>
+                <meta itemprop="priceCurrency" content="PHP" />
+              </div>
+              <div class="menu-card-btns">
+                <a
+                  href="#contact"
+                  class="btn btn-outline"
+                  style="border-radius: 50px"
+                  >Reserve</a
+                >
+                <a
+                  href="#contact"
+                  class="btn btn-primary"
+                  style="border-radius: 50px"
+                  >Order</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Snacks -->
         <article
           class="menu-card"
           data-cat="snack"
@@ -2420,8 +2932,8 @@
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/27244307/pexels-photo-27244307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Cinnamon Pecan Roll – Freshly baked pastry at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/97998434/76cd616e-ef56-45b4-a8f9-07aacdf21c40.jpg"
+              alt="Chocolate Chip Cookie – Freshly baked pastry at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
@@ -2430,11 +2942,11 @@
           </div>
           <div class="menu-card-body">
             <div class="menu-card-name" itemprop="name">
-              Cinnamon Pecan Roll
+              Chocolate Chip Cookie
             </div>
             <div class="menu-card-desc" itemprop="description">
-              Freshly baked cinnamon roll loaded with toasted pecans and sweet
-              cream cheese glaze. Pairs perfectly with any cup.
+              Soft, chewy, and loaded with chocolate chips. A homemade timeless
+              classic.
             </div>
             <div class="menu-card-footer">
               <div
@@ -2443,7 +2955,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="90">₱90</span>
+                <span itemprop="price" content="90">₱29</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2464,31 +2976,28 @@
           </div>
         </article>
 
-        <!-- Snack 2 -->
         <article
           class="menu-card"
           data-cat="snack"
           data-aos="fade-up"
-          data-aos-delay="80"
+          data-aos-delay="0"
           itemscope
           itemtype="https://schema.org/MenuItem"
         >
           <div class="menu-card-img">
             <img
-              src="https://images.pexels.com/photos/29185236/pexels-photo-29185236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Butter Flake Pastry – Flaky baked good at Minum Kape Tarlac"
+              src="https://images.deliveryhero.io/image/global-menu-service/FP_PH/vendor/pyz0/product/7e7ca41b-7511-4d39-bd28-417f7d329f50.jpg"
+              alt="French Fries-Plain – Freshly baked pastry at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
             />
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">
-              Butter Flake Pastry
-            </div>
+            <div class="menu-card-name" itemprop="name">French Fries-Plain</div>
             <div class="menu-card-desc" itemprop="description">
-              Buttery, golden-flaky layers filled with rich, seasonal jam — a
-              morning staple that you'll always come back for.
+              Crispy, golden, and perfectly salted. Simple, classic, and always
+              satisfying.
             </div>
             <div class="menu-card-footer">
               <div
@@ -2497,7 +3006,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="75">₱75</span>
+                <span itemprop="price" content="90">₱55</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
@@ -2518,7 +3027,6 @@
           </div>
         </article>
 
-        <!-- Snack 3 -->
         <article
           class="menu-card"
           data-cat="snack"
@@ -2530,17 +3038,16 @@
           <div class="menu-card-img">
             <img
               src="https://images.pexels.com/photos/34623626/pexels-photo-34623626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Dark Café Brownie – Espresso-infused brownie at Minum Kape Tarlac"
+              alt="French Fries-BBQ – Espresso-infused brownie at Minum Kape Tarlac"
               loading="lazy"
               width="940"
               height="650"
             />
           </div>
           <div class="menu-card-body">
-            <div class="menu-card-name" itemprop="name">Dark Café Brownie</div>
+            <div class="menu-card-name" itemprop="name">French Fries-BBQ</div>
             <div class="menu-card-desc" itemprop="description">
-              Dense, fudgy dark chocolate brownie infused with a shot of
-              espresso — sinfully good, no apologies.
+              Crispy fries with a smoky, sweet BBQ twist. Bold and flavorful
             </div>
             <div class="menu-card-footer">
               <div
@@ -2549,7 +3056,7 @@
                 itemscope
                 itemtype="https://schema.org/Offer"
               >
-                <span itemprop="price" content="85">₱85</span>
+                <span itemprop="price" content="85">₱59</span>
                 <meta itemprop="priceCurrency" content="PHP" />
               </div>
               <div class="menu-card-btns">
